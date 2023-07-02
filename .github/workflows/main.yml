@@ -118,4 +118,4 @@ jobs:
         with:
           context: ./gateway/
           push: true
-          tags: username/taski_gateway:latest
+          tags: agorlenko4/taski_gateway:latest
