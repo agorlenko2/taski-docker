@@ -3,7 +3,6 @@ from pathlib import Path
 
 BASE_DIR = Path(__file__).resolve().parent.parent
 
-
 SECRET_KEY = os.environ.get('SECRET_KEY', 'django-insecure-123')
 SERVER_IP = os.environ.get('SERVER_IP')
 
@@ -12,6 +11,7 @@ DEBUG = False
 ALLOWED_HOSTS = [
     SERVER_IP,
     'localhost',
+    '127.0.0.1',
     'agorstudy.ddns.net',
 ]
 
